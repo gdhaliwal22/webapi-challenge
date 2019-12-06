@@ -19,7 +19,7 @@ server.use("/api/actions", actionRouter);
 
 // Initial get request
 server.get("/", (req, res) => {
-  res.send(`<h1>Have fun at sprint!</h1>`);
+  res.send(`<h1>Sprint!</h1>`);
 });
 
 module.exports = server;
